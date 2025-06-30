@@ -13,5 +13,8 @@ layout: default
 </h2>
 
 
-Hi, I’m Tre Quaid. This is my personal site.
+<p style="font-size: 22px; margin-top: 1em;">
+  Hi, I’m Tre Quaid. This is my personal site.
+</p>
+
 
