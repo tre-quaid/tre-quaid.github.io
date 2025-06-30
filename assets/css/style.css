@@ -18,8 +18,8 @@ body {
   margin: 0 auto;
   padding: 2em;
 }
-.blue-name {
-  color: #3399ff; /* You can use any shade of blue here */
+.blue-ascii {
+  color: #3399ff;
 }
 .ascii-logo {
   text-align: center;
