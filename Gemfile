@@ -10,14 +10,12 @@ end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
-  gem "wdm", "~> 0.2.0"
 end
 
-gem "webrick"
+gem "wdm", "~> 0.2.0", :install_if => Gem.win_platform?
 
-
-# Optional: only if your site actually uses these
 gem "base64"
 gem "csv", "~> 3.0.0"
 gem "bigdecimal"
 gem "rexml"
+gem "webrick"
