@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <div class="container">
-    <pre class="ascii-logo">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <style>
+      body {
+        font-family: monospace;
+        text-align: center;
+        margin: 2em;
+        background-color: #111;
+        color: #0f0;
+      }
+      .ascii {
+        white-space: pre;
+        font-size: 14px;
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ascii">
         ,----,                                                                                       
       ,/   .`|                                                                                       
     ,`   .'  :                           ,----..                                                     
@@ -23,11 +35,11 @@
     ;   |.' |  , ; '   |  / |         \   \  ',  . \ '  :  `--'   \ /  /  ,.  | |  | '.'||   | '/  ' 
     '---'    ---'  |   :    |          ;   :      ; |:  ,      .-./;  :   .'   \;  :    ;|   :    :| 
                     \   \  /            \   \ .'`--"  `--`----'    |  ,     .-./|  ,   /  \   \  /   
-                     `----'              `---`                      `--`---'     ---`-'    `----'    
-                     Tre Quaid's Terminal
-    </pre>
+                     `----'              `---`                      `--`---'     ---`-'    `----'          
+    </div>
 
-    {{ content }}
-  </div>
-</body>
+    <main>
+      {{ content }}
+    </main>
+  </body>
 </html>

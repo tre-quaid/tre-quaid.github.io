@@ -1,8 +1,8 @@
 ---
-title: Home
+title: Tre Quaid
 layout: default
 ---
 
 # Welcome
 
-This is Tre Quaid’s site. More to come soon.
+Hi, I'm Tre Quaid. This is my personal site.
