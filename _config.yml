@@ -3,5 +3,5 @@ description: >-
   My personal terminal-themed homepage.
 baseurl: "" # leave this empty for GitHub Pages user site
 url: "https://tre-quaid.github.io"
-theme: jekyll-theme-cayman
+
 
