@@ -18,3 +18,10 @@ body {
   margin: 0 auto;
   padding: 2em;
 }
+.blue-name {
+  color: #00f; /* You can use any shade of blue here */
+}
+.ascii-logo {
+  text-align: center;
+  font-family: monospace;
+}
