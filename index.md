@@ -2,6 +2,7 @@
 title: Tre Quaid's Website
 layout: default
 ---
+<p style="font-size: 22px; margin-top: 1em;">
 <h2 class="rainbow">
   <span style="--i:1">W</span>
   <span style="--i:2">e</span>
@@ -13,7 +14,7 @@ layout: default
 </h2>
 
 
-<p style="font-size: 22px; margin-top: 1em;">
+
   Hi, I’m Tre Quaid. This is my personal site.
 </p>
 
