@@ -26,3 +26,12 @@ body {
   text-align: center;
   font-family: monospace;
 }
+a {
+  color: #ff5555; /* A soft red that's readable on dark backgrounds */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff7777; /* Slightly lighter red on hover */
+  text-decoration: underline;
+}
