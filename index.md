@@ -1,6 +1,6 @@
 ---
-title: Tre Quaid's Website
 layout: default
+title: Tre Quaid's Website
 ---
 
 # Welcome
