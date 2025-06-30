@@ -60,3 +60,27 @@ li {
     transform: translateY(-10px);
   }
 }
+.rainbow span {
+  display: inline-block;
+  animation: colorShift 2s infinite linear;
+  animation-delay: calc(var(--i) * 0.3s);
+}
+
+/* Define keyframes for hue rotation */
+@keyframes colorShift {
+  0% {
+    color: hsl(0, 100%, 60%);
+  }
+  25% {
+    color: hsl(90, 100%, 60%);
+  }
+  50% {
+    color: hsl(180, 100%, 60%);
+  }
+  75% {
+    color: hsl(270, 100%, 60%);
+  }
+  100% {
+    color: hsl(360, 100%, 60%);
+  }
+}
