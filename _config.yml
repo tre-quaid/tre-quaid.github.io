@@ -1,6 +1,9 @@
-title: Tre Quaid Terminal
+title: Tre Quaid
+description: >- 
+  My personal terminal-themed homepage.
+baseurl: "" # leave this empty for GitHub Pages user site
 url: "https://tre-quaid.github.io"
-baseurl: ""  # <- very important, leave blank
 theme: jekyll-shell-theme
+
 plugins:
   - jekyll-feed
