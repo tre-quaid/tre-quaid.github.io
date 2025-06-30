@@ -19,7 +19,7 @@ body {
   padding: 2em;
 }
 .blue-ascii {
-  color: #3399ff;
+  color: #66ccff; /* You can try #80dfff or #00ffff too */
 }
 .ascii-logo {
   text-align: center;
