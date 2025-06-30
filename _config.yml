@@ -1,7 +1,9 @@
 title: Tre Quaid
-description: >- 
-  My personal terminal-themed homepage.
-baseurl: "" # leave this empty for GitHub Pages user site
+description: My personal terminal-themed homepage.
+baseurl: "" # keep this empty for user site
 url: "https://tre-quaid.github.io"
 
+theme: jekyll-theme-hacker
 
+plugins:
+  - jekyll-feed
