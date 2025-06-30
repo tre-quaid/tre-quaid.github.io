@@ -1,0 +1,6 @@
+title: Tre Quaid Terminal
+url: "https://tre-quaid.github.io"
+baseurl: ""  # <- very important, leave blank
+theme: jekyll-shell-theme
+plugins:
+  - jekyll-feed
