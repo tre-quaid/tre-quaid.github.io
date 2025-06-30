@@ -3,8 +3,5 @@ description: >-
   My personal terminal-themed homepage.
 baseurl: "" # leave this empty for GitHub Pages user site
 url: "https://tre-quaid.github.io"
-remote_theme: b2a3e8/jekyll-shell-theme
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
+theme: jekyll-theme-cayman
 
