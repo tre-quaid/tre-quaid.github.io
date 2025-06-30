@@ -37,3 +37,11 @@ a:active {
 a:hover {
   text-decoration: underline;
 }
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5em 0;
+}
