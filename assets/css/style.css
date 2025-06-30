@@ -45,21 +45,7 @@ ul {
 li {
   margin: 0.5em 0;
 }
-.wave span {
-  display: inline-block;
-  animation: wave 1.5s infinite;
-  animation-delay: calc(0.1s * var(--i));
-  color: #66ccff;
-}
 
-@keyframes wave {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
 .rainbow span {
   display: inline-block;
   animation: colorShift 2s infinite linear;
@@ -83,4 +69,16 @@ li {
   100% {
     color: hsl(360, 100%, 60%);
   }
+}
+.rainbow span {
+  display: inline-block;
+  animation:
+    colorShift 2s infinite linear,
+    wave 1.5s infinite ease-in-out;
+  animation-delay: calc(var(--i) * 0.3s);
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
