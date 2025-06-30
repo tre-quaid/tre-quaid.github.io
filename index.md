@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Tre Quaid Terminal
 ---
 
@@ -7,5 +7,5 @@ title: Tre Quaid Terminal
 
 Hi, I'm Tre Quaid. This is my personal site, powered by Jekyll.
 
-- 📫 [Email me](mailto:trequaid@gmail.com)
-- 🐙 [GitHub @tre-quaid](https://github.com/tre-quaid)
+[Email me](mailto:trequaid@gmail.com)
+[GitHub @tre-quaid](https://github.com/tre-quaid)
