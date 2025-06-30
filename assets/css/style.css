@@ -45,3 +45,18 @@ ul {
 li {
   margin: 0.5em 0;
 }
+.wave span {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+  animation-delay: calc(0.1s * var(--i));
+  color: #66ccff;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
