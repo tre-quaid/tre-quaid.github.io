@@ -3,12 +3,8 @@ description: My personal terminal-themed homepage.
 baseurl: "" # keep this empty for user site
 url: "https://tre-quaid.github.io"
 
-theme: jekyll-theme-hacker
-
-plugins:
-  - jekyll-feed
-sass:
-  style: compressed
+theme: null
+markdown: kramdown
 
 include:
   - assets/css
@@ -19,3 +15,4 @@ defaults:
       path: ""
     values:
       layout: default
+
