@@ -2,21 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title | default: "Tre Quaid" }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: monospace;
-      background: #111;
-      color: #0f0;
-      padding: 2rem;
-    }
-    a {
-      color: #0f0;
-    }
-  </style>
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  {{ content }}
+  <div class="container">
+    <pre class="ascii-logo">
+        ,----,                                                                                       
+      ,/   .`|                                                                                       
+    ,`   .'  :                           ,----..                                                     
+  ;    ;     /                          /   /   \                                 ,--,         ,---, 
+.'___,/    ,' __  ,-.                  /   .     :            ,--,              ,--.'|       ,---.'| 
+|    :     |,' ,'/ /|                 .   /   ;.  \         ,'_ /|              |  |,        |   | : 
+;    |.';  ;'  | |' | ,---.          .   ;   /  ` ;    .--. |  | :    ,--.--.   `--'_        |   | | 
+`----'  |  ||  |   ,'/     \         ;   |  ; \ ; |  ,'_ /| :  . |   /       \  ,' ,'|     ,--.__| | 
+    '   :  ;'  :  / /    /  |        |   :  | ; | '  |  ' | |  . .  .--.  .-. | '  | |    /   ,'   | 
+    |   |  '|  | ' .    ' / |        .   |  ' ' ' :  |  | ' |  | |   \__\/: . . |  | :   .   '  /  | 
+    '   :  |;  : | '   ;   /|        '   ;  \; /  |  :  | : ;  ; |   ," .--.; | '  : |__ '   ; |:  | 
+    ;   |.' |  , ; '   |  / |         \   \  ',  . \ '  :  `--'   \ /  /  ,.  | |  | '.'||   | '/  ' 
+    '---'    ---'  |   :    |          ;   :      ; |:  ,      .-./;  :   .'   \;  :    ;|   :    :| 
+                    \   \  /            \   \ .'`--"  `--`----'    |  ,     .-./|  ,   /  \   \  /   
+                     `----'              `---`                      `--`---'     ---`-'    `----'    
+                     Tre Quaid's Terminal
+    </pre>
+
+    {{ content }}
+  </div>
 </body>
 </html>
