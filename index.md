@@ -1,5 +1,5 @@
 ---
-title: Tre Quaid
+title: Tre Quaid's Website
 layout: default
 ---
 <h2 class="rainbow">
