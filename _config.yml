@@ -7,3 +7,15 @@ theme: jekyll-theme-hacker
 
 plugins:
   - jekyll-feed
+sass:
+  style: compressed
+
+include:
+  - assets/css
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "/assets/css/style.css"
