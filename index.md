@@ -3,9 +3,7 @@ title: Tre Quaid
 layout: default
 ---
 
-<h2 class="wave">
-  <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
-</h2>
+
 <h2 class="wave">
   <span style="--i:1">W</span>
   <span style="--i:2">e</span>
