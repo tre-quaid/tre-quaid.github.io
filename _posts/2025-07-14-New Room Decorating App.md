@@ -12,5 +12,32 @@ One of my favorite parts is how easy it is to rotate items or snap them into pla
 far a door opens, so you don’t accidentally block anything important.
 
 Here is the download link if you would like to try it:
-https://drive.google.com/file/d/1zaMWZMdMkHrmv8vAvsgsmNaquMhIBiE2/view?usp=sharing
 
+<a href="https://drive.google.com/file/d/1zaMWZMdMkHrmv8vAvsgsmNaquMhIBiE2/view?usp=sharing" target="_blank">Download Room Decorator</a>
+
+
+<img src="/assets/images/posts/Image2.png" alt="Currently what the site looks like" class="centered-image" />
+First edition of the app
+
+Hotkeys:
+    R – Rotate selected item 90° clockwise
+
+    M – Toggle door swing direction (left/right)
+
+    Delete – Delete selected item
+
+    W – Toggle Wall Mode
+
+    D – Toggle Delete Mode
+
+    G – Toggle Grid Visibility
+
+    Ctrl + Z – Undo last action
+
+    Ctrl + E – Export current room layout to JSON
+
+    Ctrl + I – Import a saved room layout from file
+
+    Ctrl + B – Upload a custom background image for the room
+
+    Ctrl + Mouse Wheel – Zoom in/out of the room
