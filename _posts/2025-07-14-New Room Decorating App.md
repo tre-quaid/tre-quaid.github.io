@@ -16,7 +16,7 @@ Here is the download link if you would like to try it:
 <a href="https://drive.google.com/file/d/1zaMWZMdMkHrmv8vAvsgsmNaquMhIBiE2/view?usp=sharing" target="_blank">Download Room Decorator</a>
 
 
-<img src="/assets/images/posts/Image2.png" alt="Currently what the site looks like" class="centered-image" />
+<img src="/assets/images/posts/image2.png" alt="Currently what the site looks like" class="centered-image" />
 First edition of the app
 
 Hotkeys:
